@@ -18,7 +18,6 @@ public class KullaniciEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "kullanici_id")
     private Integer kullanici_id;
-    private int deneme;
 
     @Column(name = "ad")
     private String  ad;
